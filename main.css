@@ -1,0 +1,130 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+  color: darkslateblue;
+}
+
+#title {
+  font-family: monospace;
+  font-size: 35px;
+}
+
+#description {
+  font-size: 20px;
+  position: relative;
+  bottom: 17px;
+}
+
+#survey-form {
+  font-family: monospace;
+  font-size: 15px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 30px 25px 30px 25px;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  bottom: 15px;
+  text-align: left
+}
+
+#name {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+#name-label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+
+#email {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+#email-label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+
+#number {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  padding: 5px;
+}
+
+#number-label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+
+#gender-text {
+  display: block;
+  text-align: right;
+  width: 40%;
+}
+
+.lists {
+  list-style: none;
+  position: relative;
+  width: 48%;
+  left: 200px;
+  line-height: 25px;
+}
+
+#dropdown-text {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+#dropdown {
+  display: inline-block;
+  width: 48%;
+  padding: 5px;
+}
+
+#skills-text {
+  display: block;
+  text-align: right;
+  width: 40%;
+}
+
+#add-info-text {
+  display: block;
+  text-align: right;
+  width: 40%;
+}
+
+#add-info-box {
+  display: block;
+  margin: auto;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+  color: darkslateblue;
+  font-size: 20px;
+}
+
+#submit:hover {
+  color: white;
+  background-color: darkslateblue;
+}
